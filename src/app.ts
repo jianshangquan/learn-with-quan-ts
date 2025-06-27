@@ -14,6 +14,12 @@
 // Hybrid => javascript, typescript, python, dart, golang, C++, Swift, Rust, Kotlin
 // 
 
+import { TeslaCar, ToyotaCar } from "./vehicle/car";
+import { FlyingCar } from "./vehicle/flying-car";
+import { Hovercraft } from "./vehicle/hovercraft";
+import { DrivableVehicle, SummersibleVehicle } from "./vehicle/interfaces/vehicle";
+import { Marineship } from "./vehicle/marine-ship";
+
 // java, C#
 // class GoldCalculator{
 //     public void add(){
@@ -22,13 +28,27 @@
 // }
 
 
-class Car{
 
+
+
+
+
+
+var tesla: DrivableVehicle = new TeslaCar();
+var dVehicle: DrivableVehicle[] = [ new TeslaCar(), new ToyotaCar(), new FlyingCar() ]
+
+for(let i = 0; i < dVehicle.length; i++){
+    dVehicle[i].drive();
 }
 
-// Naming: Nouns only
-function drive(){ // naming: verb or action, 
 
+
+var sVehicles: SummersibleVehicle [] = [ new  Marineship() ]
+
+for (let i = 0; i < sVehicles.length; i++){
+    sVehicles[i].summer();
 }
+
+var hVechicles: Hovercraft[] = [new Hovercraft()]
 
 
