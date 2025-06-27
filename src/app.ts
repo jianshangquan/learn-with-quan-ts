@@ -1,13 +1,34 @@
-import { convertBurmeseGoldToGram, convertBurmeseGoldToMetricWeight } from "./gold-calculation";
-import { BurmeseGoldWeight, MetricWeight, TroyWeight } from "./gold-model";
+// 
+// Object Orieted Programming
+//    Java, C# (pure)
+// 
+//   1. Inheritance
+//   2. Encapsulation
+//   3. Abstraction
+//   4. Polymorphism
+//
+//
+// Functional Oriented Programming
+//    Virtual basic (VBA), QuanLang
+//    
+// Hybrid => javascript, typescript, python, dart, golang, C++, Swift, Rust, Kotlin
+// 
 
-console.log('Hello World');
+// java, C#
+// class GoldCalculator{
+//     public void add(){
+// 
+//     }
+// }
 
-const pawnItem = new BurmeseGoldWeight(1, 0, 0)
-const internationalGoldBar = new MetricWeight(1000);
-const ukGoldBar = new TroyWeight(10);
 
-const gram = convertBurmeseGoldToGram(pawnItem);
-const r = convertBurmeseGoldToMetricWeight(pawnItem);
-console.log(r.gram)
+class Car{
+
+}
+
+// Naming: Nouns only
+function drive(){ // naming: verb or action, 
+
+}
+
 
